@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		00553F7D277BACA7002325E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00553F7C277BACA7002325E6 /* AppDelegate.swift */; };
 		00553F7F277BACA7002325E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00553F7E277BACA7002325E6 /* SceneDelegate.swift */; };
-		00553F81277BACA7002325E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00553F80277BACA7002325E6 /* ViewController.swift */; };
+		00553F81277BACA7002325E6 /* ProposalList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00553F80277BACA7002325E6 /* ProposalList.swift */; };
 		00553F84277BACA7002325E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00553F82277BACA7002325E6 /* Main.storyboard */; };
 		00553F86277BACA8002325E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00553F85277BACA8002325E6 /* Assets.xcassets */; };
 		00553F89277BACA8002325E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00553F87277BACA8002325E6 /* LaunchScreen.storyboard */; };
 		00553F94277BACA8002325E6 /* SwiftEvolutionProposalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00553F93277BACA8002325E6 /* SwiftEvolutionProposalTests.swift */; };
 		00553F9E277BACA8002325E6 /* SwiftEvolutionProposalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00553F9D277BACA8002325E6 /* SwiftEvolutionProposalUITests.swift */; };
 		00553FA0277BACA8002325E6 /* SwiftEvolutionProposalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00553F9F277BACA8002325E6 /* SwiftEvolutionProposalUITestsLaunchTests.swift */; };
+		00917ECA277DC5BF00E422A6 /* ProposalDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00917EC9277DC5BF00E422A6 /* ProposalDetails.swift */; };
+		00917ECC277DD5BB00E422A6 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00917ECB277DD5BB00E422A6 /* CustomNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,7 @@
 		00553F79277BACA7002325E6 /* SwiftEvolutionProposal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftEvolutionProposal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00553F7C277BACA7002325E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00553F7E277BACA7002325E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		00553F80277BACA7002325E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00553F80277BACA7002325E6 /* ProposalList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProposalList.swift; sourceTree = "<group>"; };
 		00553F83277BACA7002325E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00553F85277BACA8002325E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00553F88277BACA8002325E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		00553F99277BACA8002325E6 /* SwiftEvolutionProposalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftEvolutionProposalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00553F9D277BACA8002325E6 /* SwiftEvolutionProposalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftEvolutionProposalUITests.swift; sourceTree = "<group>"; };
 		00553F9F277BACA8002325E6 /* SwiftEvolutionProposalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftEvolutionProposalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		00917EC9277DC5BF00E422A6 /* ProposalDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProposalDetails.swift; sourceTree = "<group>"; };
+		00917ECB277DD5BB00E422A6 /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,9 @@
 			children = (
 				00553F7C277BACA7002325E6 /* AppDelegate.swift */,
 				00553F7E277BACA7002325E6 /* SceneDelegate.swift */,
-				00553F80277BACA7002325E6 /* ViewController.swift */,
+				00553F80277BACA7002325E6 /* ProposalList.swift */,
+				00917ECB277DD5BB00E422A6 /* CustomNavigationController.swift */,
+				00917EC9277DC5BF00E422A6 /* ProposalDetails.swift */,
 				00553F82277BACA7002325E6 /* Main.storyboard */,
 				00553F85277BACA8002325E6 /* Assets.xcassets */,
 				00553F87277BACA8002325E6 /* LaunchScreen.storyboard */,
@@ -258,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00553F81277BACA7002325E6 /* ViewController.swift in Sources */,
+				00553F81277BACA7002325E6 /* ProposalList.swift in Sources */,
+				00917ECC277DD5BB00E422A6 /* CustomNavigationController.swift in Sources */,
 				00553F7D277BACA7002325E6 /* AppDelegate.swift in Sources */,
+				00917ECA277DC5BF00E422A6 /* ProposalDetails.swift in Sources */,
 				00553F7F277BACA7002325E6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
