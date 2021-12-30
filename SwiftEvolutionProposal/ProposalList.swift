@@ -19,6 +19,7 @@ class ProposalList: UITableViewController {
         fetchProposals()
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         title = "Proposals"
+        navigationController?.navigationBar.prefersLargeTitles = true
     }
 
     // MARK: - Setup UI
@@ -64,10 +65,8 @@ class ProposalList: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         var config = cell.defaultContentConfiguration()
-        if let proposals = self.proposals {
-            if let title = getTitle(at: indexPath.row) {
-                config.text = title
-            }
+        if let title = getTitle(at: indexPath.row) {
+            config.text = title
         }
         cell.contentConfiguration = config
 
